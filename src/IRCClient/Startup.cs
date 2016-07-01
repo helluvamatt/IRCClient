@@ -29,6 +29,7 @@ namespace IRCClient
         {
             // Add framework services.
             services.AddMvc();
+			services.AddSignalR(o => o.Hubs.EnableDetailedErrors = true);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,6 +39,7 @@ namespace IRCClient
             loggerFactory.AddDebug();
 
             app.UseMvc();
+			app.UseSignalR();
         }
     }
 }
