@@ -3,14 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F558B824-6966-4CA1-8AE7-586828038D78}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1790C8C3-6F65-4F4C-98D7-C7EA83CE85D5}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IRCClient", "src\IRCClient\IRCClient.xproj", "{81432545-128C-4A8A-9E2B-707FA2643B23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRCClient", "IRCClient\IRCClient.csproj", "{FC5109C1-9B49-4EB4-9E6E-C8E894D7FEFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +16,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{81432545-128C-4A8A-9E2B-707FA2643B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81432545-128C-4A8A-9E2B-707FA2643B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81432545-128C-4A8A-9E2B-707FA2643B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81432545-128C-4A8A-9E2B-707FA2643B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC5109C1-9B49-4EB4-9E6E-C8E894D7FEFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5109C1-9B49-4EB4-9E6E-C8E894D7FEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5109C1-9B49-4EB4-9E6E-C8E894D7FEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5109C1-9B49-4EB4-9E6E-C8E894D7FEFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{81432545-128C-4A8A-9E2B-707FA2643B23} = {F558B824-6966-4CA1-8AE7-586828038D78}
 	EndGlobalSection
 EndGlobal
